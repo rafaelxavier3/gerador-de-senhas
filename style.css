@@ -118,3 +118,31 @@ h1 {
 .submit button:hover {
   background-color: rgb(216, 84, 128);
 }
+
+@media (max-width: 414px) {
+  body {
+    background: #f7f7f7;
+  }
+
+  main {
+    display: flex;
+    justify-content: start;
+    padding-top: 50px;
+  }
+
+  h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.7rem;
+  }
+
+  .subtitulo {
+    padding: 2rem 0 2rem 0;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  .text input {
+    font-size: 1.2rem;
+  }
+}
